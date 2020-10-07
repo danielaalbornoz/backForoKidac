@@ -1,0 +1,15 @@
+package com.example.foro;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+@EnableSwagger2
+@SpringBootApplication
+public class ForoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ForoApplication.class, args);
+	}
+
+}
